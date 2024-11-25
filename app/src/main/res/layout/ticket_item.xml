@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginVertical="20dp"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/TicketNameTextView"
+            android:layout_width="129dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="22dp"
+            android:text="Nom Ticket"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/ticketDateTextView"
+            android:layout_width="179dp"
+            android:layout_height="44dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginBottom="34dp"
+            android:layout_toEndOf="@+id/TicketNameTextView"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Date: 12/09/2024"
+            android:textColor="#DF081A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/TicketNameTextView" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "484655633726",
+    "project_id": "app-mobile-abc55",
+    "storage_bucket": "app-mobile-abc55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484655633726:android:496dc413b15955d0e7086f",
+        "android_client_info": {
+          "package_name": "com.example.app_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg9zzh7Xa4RaPPDJSBzp2sbFqY3z5I2gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

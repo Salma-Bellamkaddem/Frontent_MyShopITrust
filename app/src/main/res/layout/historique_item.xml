@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginVertical="20dp"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/nameSupermarcheTextView"
+            android:layout_width="215dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="21dp"
+            android:layout_toStartOf="@+id/priceSupermarcheTextView"
+            android:text="Nom Supermache"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:layout_editor_absoluteX="62dp" />
+
+        <TextView
+            android:id="@+id/priceSupermarcheTextView"
+            android:layout_width="109dp"
+            android:layout_height="31dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="38dp"
+            android:layout_toEndOf="@+id/TicketNameTextView"
+            android:fontFamily="@font/roboto_medium"
+            android:text="price total"
+            android:textColor="#DF081A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/TicketNameTextView" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

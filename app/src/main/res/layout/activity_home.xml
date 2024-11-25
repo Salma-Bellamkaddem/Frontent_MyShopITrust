@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFF6F4"
+    tools:context=".ui.home.HomeActivity">
+
+        <!-- Image at the top -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/img_1" />
+
+
+        <!-- Title Text -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scannez et  Profitez!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"/>
+
+        <!-- Subtitle Text -->
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="278dp"
+            android:layout_height="100dp"
+            android:text="Scannez les produits que vous souhaitez acheter dans votre magasin préféré."
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:paddingLeft="40dp"
+
+            android:gravity="center"/>
+
+        <!-- Additional Info Text -->
+        <TextView
+            android:id="@+id/infoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Un shopping agréable et convivial!"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"/>
+
+        <!-- Sign In Button -->
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF947C"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:drawableEnd="@drawable/baseline_arrow_back_ios_24"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
